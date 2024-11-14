@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -144,6 +145,7 @@ span{
 }
 
 .about {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,6 +155,7 @@ span{
 }
 
 .about-img img{
+    margin: 0;
     position: relative;
     width: 350px;
     height: 450px;
@@ -304,12 +307,6 @@ span{
     .img-box img{
         display: none;
     } 
-    .home-content {
-        /* overflow: inherit;     */
-        /* text-overflow: clip; */
-        word-break: break-word;
-        overflow-wrap: break-word;
-    }
     .home-content h1{
         font-size: 50px;
     }
@@ -364,6 +361,7 @@ span{
 
 }
 
+/* Tablet  */
 @media screen and (min-width: 426px) and (max-width: 768px){
     .header{
         position: fixed;
@@ -396,7 +394,7 @@ span{
     }
 
     .about-img img{
-        wid th: 100%;
+        width: 100%;
         box-shadow: 0 0 25px orangered, 0 0 50px orangered;
         border-radius: 50%;
 
@@ -407,31 +405,7 @@ span{
     .contact{
         text-align: center;
     }
+    .navbar{
+        display: none;
+    }
 }
-
-/* {
-    padding: 0;
-    margin: 0;
-    font-family: var(--quicksand);
-}
-
-body{
-    line-height: 1.4;
-    color: var(--dark);
-}
-img{
-    width: 100%;
-    display: block;
-}
-.container{
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 1.2rem;
-} */
-
-/* header */
-/* order{
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url(iamge/banner-bg.jbg) center/cover no-repeat fixed;
-
-} */
